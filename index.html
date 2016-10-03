@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ru">
+   <head>
+      <meta charset="utf-8">
+      <!--[if IE]>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <![endif]-->
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- Page title -->
+      <title>Система бронирования</title>
+	  
+      <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.js"></script>
+      <![endif]-->
+	   <!-- Icon fonts -->
+	   <!-- link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet"-->
+
+	   <script src="https://use.fontawesome.com/274be52853.js"></script>
+
+	   <!-- Bootstrap Core CSS -->
+	   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <!-- Google fonts -->
+	   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&subset=cyrillic" rel="stylesheet">
+      <!-- Css Animations -->
+      <link href="css/animate.css" rel="stylesheet" />
+      <!-- Theme CSS -->
+      <link href="css/style.css" rel="stylesheet">
+
+	  <!-- Prefix free CSS -->
+	  <script src="js/prefixfree.js"></script>
+	  
+      <!-- Owl Slider & Prettyphoto -->
+      <link rel="stylesheet" href="css/owl.carousel.css">
+
+	  
+      <!-- Favicons-->
+      <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+      <link rel="icon" href="favicon.ico" type="image/x-icon">		
+   </head> 
+   
+   <body id="page-top" data-spy="scroll" data-target=".navbar-custom">   
+	<!-- Preloader -->
+	<div id="preloader">
+		<div class="spinner">
+			<div class="rect1"></div>
+			<div class="rect2"></div>
+			<div class="rect3"></div>
+			<div class="rect4"></div>
+			<div class="rect5"></div>
+		</div>
+	</div>					
+	<!-- Navbar -->	  
+      <nav class="navbar navbar-custom navbar-fixed-top">
+	  		<!-- Start Top Bar -->
+			<div class="top-bar hidden-xs hidden-sm">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8">
+							<!-- Start Contact Info -->
+							<ul class="contact-details">
+                                <li><i class="fa fa-map-marker"></i>Санкт-Петербург</li>
+                                <li><i class="fa fa-envelope"></i>sustem@site.com</li>
+                                <li><i class="fa fa-phone"></i>+7 (960) 253 7431</li>
+                            </ul><!-- End Contact Info -->
+						</div>
+						<div class="col-md-4">
+							<!-- Start Social Links -->
+							<ul class="social-list">
+								<li><a title="Facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a title="Twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a title="Google Plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+								<li><a  title="Linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a  title="Instagram" href="#"><i class="fa fa-instagram"></i></a></li>								
+							</ul>
+							<!-- End Social Links -->
+						</div>
+					</div>
+				</div>
+			</div><!-- End Top bar -->
+         <div class="container">
+         <!-- navbar -->		 
+            <div class="navbar-header page-scroll">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+               <i class="fa fa-bars"></i>
+               </button>
+               <!-- Logo -->
+               <div class="page-scroll">
+                  <a class="navbar-brand" href="#page-top">
+				  <!--Font Icon logo and text -->
+					  <i class="fa fa-fighter-jet" aria-hidden="true"></i> &nbsp; Быстрая бронь
+                  </a>
+               </div>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+               <ul class="nav navbar-nav page-scroll">
+                  <li class="active"><a href="#page-top">Начало</a></li>
+                  <li><a href="#services">Что мы делаем</a></li>
+                  <li><a href="#about">О нас</a></li>
+                  <li><a href="#contact">Контакты</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav><!-- Navbar ends -->
+	<!-- Full Page Image Background Slider -->
+	<div class="slider-container">
+	<!-- Controls -->
+	   <div class="slider-control left inactive"></div>
+	   <div class="slider-control right"></div>
+		   <ul class="slider-pagi"></ul>
+	   <!--Slider -->
+	   <div class="slider">
+	   <!-- Slide 1 -->
+		  <div class="slide slide-0 active">
+			 <div class="slide__bg"></div>
+			 <div class="slide__content">
+				<svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+				   <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+				</svg>
+				<div class="slide__text">
+				   <h1 class="slide__text-heading">Быстрый заказ</h1>
+				   <div class="hidden-sm hidden-xs">
+					  <p class="lead">Никаких регистраций, все в один клик</p>
+				   </div>
+				</div>
+			 </div>
+		  </div>
+		 <!-- Slide 2 -->
+		  <div class="slide slide-1">
+			 <div class="slide__bg"></div>
+			 <div class="slide__content">
+				<svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+				   <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+				</svg>
+				<div class="slide__text">
+				   <h1 class="slide__text-heading">Мгновенное уведомление на почту</h1>
+				   <div class="hidden-sm hidden-xs">
+					  <p class="lead">Возможно отправка на SMS, доп. почту</p>
+				   </div>
+				</div>
+			 </div>
+		  </div>
+
+	   </div>
+	</div>	
+	<!--/ Slider ends -->
+				
+    <!-- Section services -->
+	<section id="services" class="home-section">
+	   <div class="col-lg-8 col-lg-offset-2">
+		 <!-- Section heading -->
+		  <div class="section-heading">
+			 <h2><i class="fa fa-universal-access" aria-hidden="true"></i>Что мы делаем:</h2>
+			 <div class="hr"></div>
+		  </div>
+	   </div>
+	   <div class="container">
+		  <div class="row">
+			 <!-- item 1-->
+			 <div class="col-md-4 col-sm-12 wow fadeInLeft" data-wow-delay="0.2s">
+				<div class="img-wrapper">
+				   <img src="img/service1.jpg" alt="" class="img-responsive"/>
+				</div>
+				<h4>Протопирование системы</h4>
+				<p class="margin">Разработка системы бронирования под ваши условия. Составление развернутого ТЗ.
+				</p>
+			 </div><!-- /col-md-4-->
+			 
+			 <!-- item 2-->
+			 <div class="col-md-4 col-sm-12 wow fadeInUp" data-wow-delay="0.2s">
+				<div class="img-wrapper">
+				   <img src="img/service2.jpg" alt="" class="img-responsive"/>
+				</div>
+				<h4>Программирование</h4>
+				<p class="margin">Разработка сайта с сис. бронирования. Отрисовка элементов декора. Конфигурирование бронируемых столов.
+				</p>
+			 </div><!-- /col-md-4-->
+			 
+			 <!-- item 3-->
+			 <div class="col-md-4 col-sm-12 wow fadeInRight" data-wow-delay="0.2s">
+				<div class="img-wrapper">
+				   <img src="img/service3.jpg" alt="" class="img-responsive"/>
+				</div>
+				<h4>Запуск системы.</h4>
+				<p>Вы получаете свой уникальный контруктор сис. бронирования. С возможностью редактирования через удобную админ-панель.
+				</p>
+			 </div><!-- /col-md-4-->
+		  </div>
+	   </div>
+	</section>
+	<!-- /Section ends -->	  
+
+	  
+    <!-- Section About -->	
+	<section id="about" class="home-section">
+	   <div class="col-lg-8 col-lg-offset-2">
+	   	<!-- Section Heading -->	
+		  <div class="section-heading">
+			 <h2>О нас</h2>
+			 <div class="hr"></div>
+		  </div>
+	   </div>
+		  <div class="col-md-12 col-sm-12 col-centered">
+			 <div class="centered-pills">
+				<!-- Navigation -->
+				<ul class="nav nav-pills">
+				   <li class="active"><a href="#pane1" data-toggle="tab">Наша компания</a></li>
+				   <li><a href="#pane2" data-toggle="tab">Наша команда</a></li>
+				</ul>
+			 </div>
+		  </div>
+		 <div class="container">
+		  <!-- Panels start -->	
+		  <div class="tabbable">
+			 <div class="tab-content">
+				<!-- Panel  1 -->
+				<div id="pane1" class="paneltab tab-pane fade active in">
+				   <div class="row">
+					  <div class="col-md-12 col-sm-12">
+						 <div class="col-lg-7 col-md-6 col-sm-12 res-margin wow fadeInRight" data-wow-delay="0.2s">
+							<h3>Описание для компании</h3>
+							<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.</p>
+						 </div>					 
+						 <div class="col-lg-5 col-md-6 col-sm-12 wow fadeInLeft" data-wow-delay="0.2s">
+							<img src="img/about.png" alt="" class="img-responsive"/>
+						 </div>
+					  </div>
+					  <!-- icons -->
+					  <div class="col-xs-12 col-md-4 col-lg-4">
+						 <div class="box">
+							<div class="icon">
+							   <div class="image"><span class="fa fa-skyatlas" aria-hidden="true"></span></div>
+							   <h5>Опыт</h5>
+							   <p>Более 100 проектов</p>
+							</div>
+						 </div>
+					  </div>
+					  <div class="col-xs-12 col-md-4 col-lg-4">
+						 <div class="box">
+							<div class="icon">
+							   <div class="image"><span class="fa fa-fighter-jet" aria-hidden="true"></span></div>
+							   <h5>Скороть</h5>
+							   <p>Разработка не больше месяца</p>
+							</div>
+						 </div>
+					  </div>
+					  <div class="col-xs-12 col-md-4 col-lg-4">
+						 <div class="box">
+							<div class="icon">
+							   <div class="image"><span class="fa fa-list" aria-hidden="true"></span></div>
+							   <h5>Пунктуальность</h5>
+							   <p>Учтём любые ваши пожелания</p>
+							</div>
+						 </div>
+					  </div>
+				   </div>
+				 </div> 
+				<!-- Panel 1 ends -->
+				
+				<!-- Panel  2 -->
+				<div id="pane2" class="paneltab tab-pane fade text-center">
+				 <div class="row">
+				   <h3>Это мы:</h3>
+				   <!-- Item 1 -->
+				   <div class="team">
+					  <div class="col-sm-4">
+						 <div class="img-wrapper">
+							<img src="img/team1.jpg" alt="" class="img-responsive"/>
+						 </div>
+						 <!-- Caption -->
+						 <div class="caption-team">
+							<h5>Верстальщик</h5>
+							<span>Гуру CSS3 и HTML5</span>
+						 </div>
+
+					  </div>
+					  <!-- Item 2 -->
+					  <div class="col-sm-4">
+						 <div class="img-wrapper">
+							<img src="img/team2.jpg" alt="" class="img-responsive"/>
+						 </div>
+						 <!-- Caption -->
+						 <div class="caption-team">
+							<h5>Программист</h5>
+							<span>PHP, MySQL, Node.js</span>
+						 </div>
+					  </div>
+					  <!-- item 3 -->
+					  <div class="col-sm-4">
+						 <div class="img-wrapper">
+							<img src="img/team3.jpg" alt="" class="img-responsive"/>
+						 </div>
+						 <!-- Caption -->
+						 <div class="caption-team">
+							<h5>Дизайнер</h5>
+							<span>Photoshop</span>
+						 </div>
+
+					  </div>
+				   </div>
+				 </div><!-- /container-->
+			   </div><!-- /panel 2 ends -->
+			</div><!-- /.tab-content -->
+		  </div><!-- /.tabbable -->
+	   </div><!-- /container-->
+	</section>
+	<!-- Section ends-->
+
+
+	<!-- Section Contact -->
+	<section id="contact" class="home-section">
+	   <div class="col-lg-8 col-lg-offset-2">
+		  <!-- Section heading -->
+		  <div class="section-heading">
+			 <h2><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp; Связаться с нами</h2>
+			 <div class="hr"></div>
+		  </div>
+	   </div>
+	   <div class="container">
+	   	<div class="row">
+		  <div class="margin col-md-4 col-sm-6 wow fadeInLeft" data-wow-delay="0.2s">
+			 <!-- Contact info -->
+			 <h4>Информация</h4>
+			 <p>Контактнаы данные:</p>
+			 <p><i class="fa fa-envelope"></i><a href="mailto:sustem@site.com">sustem@site.com</a> or call us</p>
+			 <p><i class="fa fa-phone"></i>+7 (960) 253 7431</p>
+			 <!-- Adress info -->
+			 <h4>Адрес и время работы</h4>
+			 <p><i class="fa fa-map-marker"></i>Санкт-Петербург,<br> ул.Социалистическая 4-14</p>
+			 <p><i class="fa fa-clock-o"></i>Мы работаем с 10:00 до 21:00.<br> Без выходных.</p>
+		  </div>
+		  <div class="col-md-7 col-md-offset-1 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.2s">
+			 <!-- Contact form -->
+			 <div class="form-style" id="contact_form">
+				<div id="contact_results"></div>
+				<div class="form-group">
+				   <input type="text" name="name" class="form-control input-field" placeholder="Имя" required>
+				</div>
+				<div class="form-group">
+				   <input type="email" name="email" class="form-control input-field"  placeholder="E-mail" required>
+				</div>
+				<div class="form-group">
+				   <input type="text" name="subject" class="form-control input-field" placeholder="Тема сообщения" required>
+				</div>
+				<div class="form-group">
+				   <textarea name="message" id="message" class="textarea-field form-control" rows="4" placeholder="Текст сообщения ..." required></textarea>
+				</div>
+				<div class="form-group">
+				   <button type="submit" id="submit_btn" value="Submit" class="btn btn-default pull-right">Отправить сообщение</button>
+				</div>				
+			 </div><!--/Contact form -->	
+		  </div><!-- /col-md-6 -->
+		</div><!-- /row -->		  
+	   </div><!-- /container-->	   
+	</section>
+	<!-- Section ends -->
+			  
+    <!-- Footer -->	
+	<footer>
+	   <div class="container">
+		  <div class="row wow fadeInUp" data-wow-delay="0.2s">
+			 <div class="col-sm-6 col-md-4">
+			 <!-- Social Media icons -->	
+				<ul class="social-media">
+				   <li><a title="Facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+				   <li><a title="Twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+				   <li><a title="Google Plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+				   <li><a  title="Linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+				   <li><a  title="Instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+				</ul>
+			 </div>
+			 <!-- Bottom Credits -->
+			 <div class="col-sm-6 col-md-offset-5 col-md-3 text-center">
+				<p>COPYRIGHT © 2016<br> Система бронирования</p>
+			 </div>			 
+		  </div><!-- /row-->
+	   </div><!-- /container -->
+	   <!-- Go To Top Link -->
+	   <div class="page-scroll hidden-sm hidden-xs">
+		  <a href="#page-top" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+	   </div>
+	</footer>
+	<!-- /footer ends -->
+	  	  	
+	<!-- Core JavaScript Files -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<script src="js/main.js"></script>
+
+	<!-- Counter -->	  
+	<script src="js/numscroller.js"></script>
+
+	<!-- WOW animations -->
+	<script src="js/wow.min.js"></script>
+
+	<!-- Prettyphoto Lightbox -->
+	<script src="js/jquery.prettyPhoto.js"></script>
+	
+	<!-- Owl Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+		
+	<!-- Contact form -->	  
+	<script src="js/contact.js"></script>
+
+	<!-- Isotope -->	  
+	<script src="js/jquery.isotope.js"></script>
+
+   </body>
+</html>
